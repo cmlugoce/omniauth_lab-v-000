@@ -22,8 +22,8 @@ end
 
   private
 
-  def auth 
+  def auth
 
     request.env["omniauth.auth"]
-  end 
+  end
 end
