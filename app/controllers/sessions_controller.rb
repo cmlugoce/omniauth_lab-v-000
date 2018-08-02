@@ -11,5 +11,11 @@ def create
       render "welcome/home"
 
 
-end 
-end 
+end
+
+  def logout
+    session.destroy
+    render "welcome/home"
+
+  end 
+end
